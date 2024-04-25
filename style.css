@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+/* --------------------MENU------------------ */
+
+#menu {
+    text-align: left;
+}
+
+#menu ul {
+    margin: 0px;
+}
+
+#menu .menu-item {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.menu-item {
+    padding: 5px 20px;
+    border: 1px solid black;
+}
+
+/* .menu-item:first-child{
+    color: white;
+} */
+
+.menu-item a {
+    text-decoration: none;
+}
+
+.menu-item a:hover, li:hover {
+    background-color: rgb(26, 77, 46);
+    color: rgb(255, 255, 255);
+}
+
+/* -------------------HEADER------------------- */
+
+#header {
+    background-color: rgb(250, 170, 65);
+}
+
+#header h1 {
+    text-align: left;
+    padding: 40px 20px 5px 20px;
+}
+
+#header p {
+    width: 80%;
+    padding: 20px;
+}
+
+/* -------------------ABOUT------------------- */
+
+#about {
+    background-color: rgb(95, 175, 78);
+}
+
+#about h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#about p {
+    width: 80%;
+    padding: 20px;
+}
+
+#header, #about, #contact, #footer {
+    margin: 10px 0;
+    width: 50%;
+}
+
+/* --------------------CONTACT------------------ */
+
+#contact {
+    background-color: rgb(95, 175, 78);
+}
+
+#contact h2 {
+    text-align: center;
+    padding-top: 10px;
+}
+
+#contact p {
+    width: 80%;
+    padding: 20px;
+}
+
+/* -----------------FOOTER-------------------- */
+
+#footer {
+
+    background-color: rgb(155, 155, 155);
+}
+
+#footer p {
+    text-align: center;
+    padding: 20px;
+}
